@@ -6,6 +6,7 @@ view: client_id {
     sql: ${TABLE}.Age ;;
   }
   dimension: client_id {
+    primary_key: yes
     type: number
     sql: ${TABLE}.Client_ID ;;
   }
